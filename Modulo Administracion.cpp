@@ -6,7 +6,7 @@
 #include <iostream>
 #include <time.h>
 using namespace std;
-
+//Hola
 void toSpanish() {
 	setlocale(LC_ALL, "spanish");
     SetConsoleCP(1252);
@@ -56,8 +56,8 @@ void menu() {
 		printf("[1] --> Registrar Veterinario\n");
 		printf("[2] --> Registrar Usuario Asistente\n");
 		printf("[3] --> Atenciones por Veterinarios\n\n");
-		printf("[4] --> Cerrar la aplicación.\n\n");
-		printf("Ingrese una opción: ");
+		printf("[4] --> Cerrar la aplicaciÃ³n.\n\n");
+		printf("Ingrese una opciÃ³n: ");
 		err = 0;
 		if(!(cin >> opc)) {
 			cin.clear();
@@ -183,7 +183,7 @@ void rAsi() {
 						err = 1;
 						system("cls");
 						printf("\n\n\n**************************************************************************\n");
-						printf("--> ERROR: El ID de usuario no puede tener más de 3 digitos\n");
+						printf("--> ERROR: El ID de usuario no puede tener mÃ¡s de 3 digitos\n");
 						printf("**************************************************************************\n\n\n\n\n");
 						system("pause");
 					}
@@ -195,7 +195,7 @@ void rAsi() {
 		} while (err == 1);
 		
 		
-		printf("Ingrese una contraseña: ");
+		printf("Ingrese una contraseÃ±a: ");
 		scanf("%d", &usr.password);
 		printf("Ingrese el apellido y nombre: ");
 		scanf("%d", &usr.name); 
